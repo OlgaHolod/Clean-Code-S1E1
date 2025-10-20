@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
   display: block;
   text-align: right;
+  margin-bottom: 20px;
 }
 .wrapper-container img {
   width: 100%;
@@ -16,7 +17,9 @@ body {
 .wrapper-container .more-inf {
   font-family: fantasy, cursive;
 }
-
+.heading {
+  display: none;
+}
 @media (max-width: 768px) {
   .wrapper-container { 
     text-align: center;
@@ -34,6 +37,7 @@ body {
 }
 .task-row-wrapper {
   display: flex;
+  margin-top: 20px;
 }
 ul {
   margin: 0;
